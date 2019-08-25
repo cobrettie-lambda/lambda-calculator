@@ -69,12 +69,30 @@ body {
             @include baseButton(#225d9e);
         }
 
+        .specialBtn:hover {
+            cursor: pointer;
+        }
+
         .numberBtn {
             @include baseButton(#184379);
         }
 
+        .numberBtn:hover {
+            cursor: pointer;
+        }
+
+        .numberBtn:nth-child(10) {
+            @include baseButton(#184379);
+            width: 12rem;
+            border-radius: 5rem;
+        }
+
         .operatorBtn {
             @include baseButton(#237293)
+        }
+
+        .operatorBtn:hover {
+            cursor: pointer;
         }
     }
 }
